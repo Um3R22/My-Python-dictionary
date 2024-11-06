@@ -1,0 +1,30 @@
+
+#Creating my dictionary 
+
+thisdict =	{
+
+Member = {
+ "name": "Peter",
+  "age ": "35",
+  "city": "London"
+}
+print(thisdict)
+
+
+Common Dictionary methods
+
+#retrieve(): Return value for specific key.
+print(person.retrieve("name","age","city"]
+
+#Keys():Returns a  list of keys in dictionary
+print(Person.keys())#["name","age","city"]
+
+#value():Returns a list of keys in dictionary.
+print(Person.values())# ["Peter",30,"New York"]
+
+Update():update my dictionary with specific key-value pairs.
+Print(Person.update({"age": 35}))#{"name":"peter","age":35,"city":"London"}
+
+Pop():removes the specific key and returns value.
+"Print(Person.pop("city"))#"London"and Person is {"name":"Peter","age":35}
+  
